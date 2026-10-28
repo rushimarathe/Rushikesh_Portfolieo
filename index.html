@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>Rushikesh Marathe — Cyber Security &amp; Web Developer</title>
+    <meta name="description"
+        content="Portfolio of Rushikesh Marathe — IT Support Engineer, M.Sc. Cyber Security student, CEH certified, aspiring SOC Analyst.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- ============ NAV ============ -->
+    <header class="site-header" id="siteHeader">
+        <div class="container nav-inner">
+            
+<nav class="pill" aria-label="Main">
+  <a href="#home" class="brand">
+    <span class="brand-mark">RM</span>
+    Rushikesh
+  </a>
+
+  <button class="menu-toggle"
+          id="menuToggle"
+          type="button"
+          aria-label="Open navigation menu"
+          aria-expanded="false"
+          aria-controls="navLinks">
+    <i class="fa-solid fa-bars"></i>
+  </button>
+
+  <div class="nav-links" id="navLinks">
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+  </div>
+</nav>
+
+            <div class="pill">
+                <a href="#contact" class="btn btn-solid">Contact me</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- ============ HERO ============ -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <span class="eyebrow"><span class="dot"></span>WEB APPLICATION SECURITY RESEARCHER</span>
+                    <h1>Hi, I'm <span class="accent">Rushikesh</span> Marathe.</h1>
+                    <div class="typed-line">
+                        <span id="element">Ethical Hacker.</span>
+                    </div>
+                    <p class="hero-sub">
+                        I specialize in penetration testing, web application security, and vulnerability research.
+                        I build web applications, identify vulnerabilities through authorized testing, and help make
+                        digital systems more secure.
+                    </p>
+                    <div class="hero-actions">
+
+                        <a href="assets/Rushikesh_Marathe_Security_Analyst.pdf" class="btn btn-solid"
+                            download="Rushikesh_Marathe_Security_Analyst.pdf">
+                            <i class="fa-solid fa-download"></i>
+                            Download Resume
+                        </a>
+
+                        <a href="https://github.com/rushimarathe" class="btn btn-ghost" target="_blank" rel="noopener noreferrer">
+                            <i class="fa-brands fa-github"></i> Visit GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <!-- fake-OS windows, like the hero mockup on teamassistant.com -->
+                <div class="mock" aria-hidden="true">
+                    <div class="window win-terminal">
+                        <div class="window-bar"><i></i><i></i><i></i><span>rushikesh@portfolio: ~</span></div>
+                        <div class="term">
+                            <div><span class="p">$</span> <span class="k">whoami</span></div>
+                            <div class="v">rushikesh-marathe</div>
+                            <div><span class="p">$</span> <span class="k">role</span></div>
+                            <div class="v">Jr Penetration Tester @ Farchase Solution </div>
+                            <div><span class="p">$</span> <span class="k">studying</span></div>
+                            <div class="v">M.Sc. Cyber Security, JSPM University</div>
+                            <div><span class="p">$</span> <span class="k">certs</span></div>
+                            <div class="v">CEH · CompTIA Network+ training</div>
+                            <div><span class="p">$</span> <span class="k">goal</span></div>
+                            <div class="v">Web Application Security
+                                Vulnerability Research</div>
+                        </div>
+                    </div>
+                    <div class="window win-apps">
+                        <div class="window-bar"><i></i><i></i><i></i><span>Active projects</span></div>
+                        <div class="apps">
+                            <div class="app-row">IoT Honeypot <span class="status run">BUILT</span></div>
+                            <div class="app-row">VAPT Platform <span class="status build">BUILDING</span></div>
+                            <div class="app-row">Malicious URL Detection <span class="status run">PROTOTYPE</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ ABOUT ============ -->
+        <section class="section" id="about">
+            <div class="container about-grid">
+                <div class="about-art reveal">
+                    <img src="./images/cybersecurity-person.png" alt="Cybersecurity researcher working at a computer"
+                        class="cybersecurity-person" />
+                </div>
+                <div class="about-copy reveal">
+                    <span class="kicker">About me</span>
+                    <h2>Jr Penetration Tester & Security Researcher.</h2>
+                    <p>
+                        I work as a <strong>Jr Penetration Tester at Farchase Solutions Pvt. Ltd.</strong>
+                        and I'm pursuing an <strong>M.Sc. in Cyber Security at JSPM University</strong>.
+                        I hold the <strong>CEH</strong> certification and have completed
+                        <strong>CompTIA Network+ training</strong>
+                    </p>
+                    <p>
+                        My focus is on <strong>Web Application Security</strong> and
+                        <strong>Vulnerability Research</strong>. I conduct authorized penetration
+                        testing, identify and validate security vulnerabilities, develop
+                        proof-of-concept (PoC) demonstrations, and prepare detailed vulnerability
+                        reports with severity assessments, impact analysis, and actionable
+                        remediation recommendations.
+                    </p>
+                    <div class="facts">
+                        <div class="fact"><b>Location</b><span>Pune, India</span></div>
+                        <div class="fact"><b>Current role</b><span>Jr Penetration Tester</span></div>
+                        <div class="fact"><b>Education</b><span>M.Sc. Cyber Security</span></div>
+                        <div class="fact"><b>Certification</b><span>CEH</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ EXPERIENCE ============ -->
+        <section class="section alt" id="experience">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="kicker">Experience</span>
+                    <h3>From Building Applications to Breaking Their Security.</h3>
+                    <p>My journey spans web development, IT support, and cybersecurity — now focused on penetration
+                        testing, web application security, and vulnerability research.</p>
+                </div>
+
+                <div class="steps">
+
+                    <article class="step reveal">
+                        <div class="step-num">01</div>
+                        <div>
+                            <div class="step-top">
+                                <div>
+                                    <h3>Penetration Tester</h3>
+                                    <div class="org">Farchase Solutions Pvt. Ltd.</div>
+                                </div>
+                                <span class="date now">Oct 2026 – Present</span>
+                            </div>
+                            <p>
+                                Conduct authorized penetration testing and vulnerability assessments,
+                                focusing on web application security and vulnerability research.
+                                Identify and validate security issues, develop proof-of-concept
+                                demonstrations, and document findings with severity ratings,
+                                impact analysis, and remediation recommendations.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="step reveal">
+                        <div class="step-num">02</div>
+                        <div>
+                            <div class="step-top">
+                                <div>
+                                    <h3>IT Support Engineer</h3>
+                                    <div class="org">WNS Global Services</div>
+                                </div>
+                                <span class="date">Sep 2024 – Oct 2026</span>
+                            </div>
+                            <p>Day-to-day IT support, alongside an M.Sc. in Cyber Security and self-directed security
+                                projects.</p>
+                        </div>
+                    </article>
+
+                    <article class="step reveal">
+                        <div class="step-num">03</div>
+                        <div>
+                            <div class="step-top">
+                                <div>
+                                    <h3>Cyber Security Intern</h3>
+                                    <div class="org">Thiranex Skill Development &amp; Future Tech</div>
+                                </div>
+                                <span class="date">May 2026 – Jul 2026</span>
+                            </div>
+                            <p>Built a Password Strength Analyzer, a Vulnerability Scanner, a Phishing Email Detection
+                                Model and a Secure Login System.</p>
+                        </div>
+                    </article>
+
+                    <article class="step reveal">
+                        <div class="step-num">04</div>
+                        <div>
+                            <div class="step-top">
+                                <div>
+                                    <h3>Web Developer Intern</h3>
+                                    <div class="org">GeekBase Technology</div>
+                                </div>
+                                <!-- TODO: update the end date if this role has finished -->
+                                <span class="date">Jul 2024 – Aug 2024 </span>
+                            </div>
+                            <p>Supported the development and maintenance of websites and web applications: HTML, CSS,
+                                JavaScript, debugging, and working with the development team on real projects.</p>
+                        </div>
+                    </article>
+
+                    <article class="step reveal">
+                        <div class="step-num">05</div>
+                        <div>
+                            <div class="step-top">
+                                <div>
+                                    <h3>Laravel Developer Intern</h3>
+                                    <div class="org">Microspectra Software Technologies</div>
+                                </div>
+                                <span class="date">Feb 2024 – May 2024</span>
+                            </div>
+                            <p>Helped develop and maintain web applications with the Laravel framework (PHP, MySQL,
+                                HTML, CSS, JavaScript), writing clean and secure code with senior developers.</p>
+                        </div>
+                    </article>
+
+                    <article class="step reveal">
+                        <div class="step-num">06</div>
+                        <div>
+                            <div class="step-top">
+                                <div>
+                                    <h3>Ethical Hacking Training & Projects</h3>
+                                    <div class="org">Internshala Trainings · Script Kiddies Hackers</div>
+                                </div>
+                                <span class="date">Dec 2023 – Feb 2024</span>
+                            </div>
+                            <p>Conducted penetration tests and vulnerability assessments for an organization,
+                                SecureCorp, and produced a VAPT report to shape a security assessment and defense plan.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PROJECTS ============ -->
+        <section class="section" id="projects">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="kicker">Projects</span>
+                    <h2>Things I've built.</h2>
+                    <p>Hands-on projects in security and web development.</p>
+                </div>
+
+                <div class="cards">
+                    <article class="card reveal">
+                        <div class="icon"><i class="fa-solid fa-microchip"></i></div>
+                        <h3>IoT Honeypot</h3>
+                        <p>An ESP32-based honeypot built for real-time intrusion detection.</p>
+                        <ul>
+                            <li>Runs on low-cost ESP32 hardware</li>
+                            <li>Detects intrusion attempts in real time</li>
+                        </ul>
+                        <div class="tags"><span class="tag">ESP32</span><span class="tag">IoT</span><span
+                                class="tag">Intrusion detection</span></div>
+                    </article>
+
+                    <!-- Malicious URL Detection Project -->
+                    <article class="card reveal">
+                        <div class="icon">
+                            <i class="fa-solid fa-shield-virus"></i>
+                        </div>
+
+                        <h3>Malicious URL Detection System</h3>
+
+                        <p>
+                            A cybersecurity project designed to identify potentially malicious
+                            URLs and help users recognize phishing links and suspicious websites.
+                        </p>
+
+                        <ul>
+                            <li>URL analysis and suspicious pattern detection</li>
+                            <li>Phishing and malicious link identification</li>
+                            <li>Security-focused URL classification</li>
+                        </ul>
+
+                        <div class="tags">
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">Phishing Detection</span>
+                            <span class="tag">URL Analysis</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="icon"><i class="fa-solid fa-shield-halved"></i></div>
+                        <h3>VAPT Platform</h3>
+                        <p>A web application vulnerability assessment platform for authorized targets. In progress.</p>
+                        <ul>
+                            <li>Recon, port discovery and vulnerability scanning</li>
+                            <li>Risk classification and report generation</li>
+                        </ul>
+                        <div class="tags"><span class="tag">Python</span><span class="tag">Flask</span><span
+                                class="tag">Nmap</span><span class="tag">Burp Suite</span><span class="tag">OWASP
+                                ZAP</span></div>
+                    </article>
+                    <article class="card reveal">
+                        <div class="icon"><i class="fa-solid fa-key"></i></div>
+                        <h3>Password Strength Analyzer</h3>
+                        <p>Internship project at Thiranex that scores how strong a password is.</p>
+                        <div class="tags"><span class="tag">Security</span><span class="tag">Internship</span></div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="icon"><i class="fa-solid fa-bug"></i></div>
+                        <h3>Vulnerability Scanner</h3>
+                        <p>Internship project at Thiranex for scanning targets for common weaknesses.</p>
+                        <div class="tags"><span class="tag">Security</span><span class="tag">Internship</span></div>
+                    </article>
+
+                    <article class="card reveal">
+                        <div class="icon"><i class="fa-solid fa-envelope-circle-check"></i></div>
+                        <h3>Phishing Email Detection</h3>
+                        <p>Internship project at Thiranex: a model that detects phishing emails. A Secure Login System
+                            was built in the same internship.</p>
+                        <div class="tags"><span class="tag">Machine learning</span><span class="tag">Internship</span>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ SKILLS ============ -->
+
+        <section class="section alt" id="skills">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="kicker">Technical Expertise</span>
+                    <h2>My Cybersecurity Skills</h2>
+                    <p>
+                        Security tools and technical skills focused on penetration
+                        testing, vulnerability assessment, and threat detection.
+                    </p>
+                </div>
+
+                <div class="skill-groups">
+
+                    <!-- Web Application Security -->
+                    <div class="skill-group reveal">
+                        <h3><i class="fa-solid fa-shield-halved"></i> Web Application Security</h3>
+                        <div class="tags">
+                            <span class="tag">Penetration Testing</span>
+                            <span class="tag">Vulnerability Assessment</span>
+                            <span class="tag">OWASP Top 10</span>
+                            <span class="tag">SQL Injection</span>
+                            <span class="tag">XSS</span>
+                            <span class="tag">Burp Suite</span>
+                        </div>
+                    </div>
+
+                    <!-- Security Tools -->
+                    <div class="skill-group reveal">
+                        <h3><i class="fa-solid fa-screwdriver-wrench"></i> Security Tools</h3>
+                        <div class="tags">
+                            <span class="tag">Nmap</span>
+                            <span class="tag">Metasploit</span>
+                            <span class="tag">Wireshark</span>
+                            <span class="tag">SQLmap</span>
+                            <span class="tag">Hydra</span>
+                            <span class="tag">Kali Linux</span>
+                            <span class="tag">Burp Suite</span>
+                        </div>
+                    </div>
+
+                    <!-- Vulnerability Research -->
+                    <div class="skill-group reveal">
+                        <h3><i class="fa-solid fa-bug"></i> Vulnerability Research</h3>
+                        <div class="tags">
+                            <span class="tag">Bug Bounty</span>
+                            <span class="tag">XSS Research</span>
+                            <span class="tag">Proof of Concept</span>
+                            <span class="tag">CWE</span>
+                            <span class="tag">CVSS</span>
+                            <span class="tag">Security Reporting</span>
+                        </div>
+                    </div>
+                    <div class="skill-group reveal">
+                        <h3>
+                            <i class="fa-solid fa-shield-halved"></i>
+                            SOC Operations & Threat Detection
+                        </h3>
+
+                        <div class="tags">
+                            <span class="tag">Security Monitoring</span>
+                            <span class="tag">SIEM</span>
+                            <span class="tag">Microsoft Sentinel</span>
+                            <span class="tag">Splunk</span>
+                            <span class="tag">IBM QRadar</span>
+                            <span class="tag">Log Analysis</span>
+                            <span class="tag">Event Correlation</span>
+                            <span class="tag">Incident Response</span>
+                            <span class="tag">Threat Hunting</span>
+                            <span class="tag">Alert Triage</span>
+                            <span class="tag">MITRE ATT&CK</span>
+                            <span class="tag">Phishing Analysis</span>
+                            <span class="tag">EDR Fundamentals</span>
+                            <span class="tag">IOC Analysis</span>
+                            <span class="tag">Incident Documentation</span>
+                        </div>
+                    </div>
+                    <!-- Network Security -->
+                    <div class="skill-group reveal">
+                        <h3><i class="fa-solid fa-network-wired"></i> Network Security</h3>
+                        <div class="tags">
+                            <span class="tag">TCP/IP</span>
+                            <span class="tag">DNS</span>
+                            <span class="tag">HTTP/HTTPS</span>
+                            <span class="tag">Network Traffic Analysis</span>
+                            <span class="tag">Wireshark</span>
+                        </div>
+                    </div>
+
+                    <!-- Detection & Analysis -->
+                    <div class="skill-group reveal">
+                        <h3><i class="fa-solid fa-magnifying-glass-chart"></i> Security Analysis</h3>
+                        <div class="tags">
+                            <span class="tag">Malicious URL Detection</span>
+                            <span class="tag">Phishing Analysis</span>
+                            <span class="tag">Log Analysis</span>
+                            <span class="tag">SIEM Fundamentals</span>
+                            <span class="tag">Incident Response Fundamentals</span>
+                        </div>
+                    </div>
+
+                    <!-- Programming & Systems -->
+                    <div class="skill-group reveal">
+                        <h3><i class="fa-solid fa-code"></i> Programming & Systems</h3>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Java</span>
+                            <span class="tag">Linux</span>
+                            <span class="tag">Windows</span>
+                            <span class="tag">Git</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ CONTACT ============ -->
+       
+<section class="pro-contact" id="contact">
+  <div class="pro-contact-inner">
+
+    <!-- LEFT SIDE -->
+    <div class="pro-contact-info">
+      <span class="pro-eyebrow">GET IN TOUCH</span>
+
+      <h2>Let's Work<br />Together</h2>
+
+      <p class="pro-contact-intro">
+        Have a project in mind? Want to collaborate on a
+        game? Or just want to say hello? I'd love to hear
+        from you.
+      </p>
+
+      <a class="pro-info-item" href="mailto:rushikeshmarathe47@gmail.com">
+        <span class="pro-info-icon">✉</span>
+        <span>
+          <small>Email</small>
+          <strong>rushikeshmarathe47@gmail.com</strong>
+        </span>
+      </a>
+
+      <div class="pro-info-item">
+        <span class="pro-info-icon">⌖</span>
+        <span>
+          <small>Location</small>
+          <strong>Pune, Maharashtra, India</strong>
+        </span>
+      </div>
+
+      <div class="pro-socials">
+        <small>Follow me</small>
+        <div class="pro-social-links">
+         <a href="https://github.com/rushimarathe" aria-label="GitHub" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+
+          <a href="https://www.linkedin.com/in/rushikesh-marathe-320a7023a/" aria-label="LinkedIn"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>    
+
+          <a href="https://x.com/your-username"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="X">𝕏</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT SIDE FORM -->
+    <div class="pro-contact-form-card">
+      <h3>Send a Message</h3>
+
+      <form class="pro-contact-form" action="/api/contact" method="POST">
+        <div aria-hidden="true" style="position:absolute;left:-10000px">
+          <label>Leave empty<input name="website" tabindex="-1" autocomplete="off" /></label>
+        </div>
+        <div class="pro-form-row">
+          <label>
+            Your Name
+            <input type="text" name="name"
+                   placeholder="John Doe" required />
+          </label>
+
+          <label>
+            Email Address
+            <input type="email" name="email"
+                   placeholder="john@example.com" required />
+          </label>
+        </div>
+
+        <label>
+          Subject
+          <input type="text" name="subject"
+                 placeholder="Project inquiry" required />
+        </label>
+
+        <label>
+          Message
+          <textarea name="message"
+                    placeholder="Tell me about your project or idea..."
+                    rows="5" required></textarea>
+        </label>
+
+        <div id="contactChallenge"></div>
+        <button type="submit" class="pro-send-btn">
+          <span>➤</span> Send Message
+        </button>
+
+        <!-- Form submission feedback appears here -->
+        <p id="contactFormStatus" role="status" aria-live="polite"
+           style="display:none; margin-top:16px; padding:12px 14px; border-radius:10px; line-height:1.5;"></p>
+      </form>
+    </div>
+
+  </div>
+
+</section>
+
+
+    <!-- ============ FOOTER ============ -->
+    <footer>
+        <div class="container">
+            <div class="foot-row">
+                <nav class="foot-nav" aria-label="Footer">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+
+
+                <div class="social">
+                    <!-- Instagram -->
+                    <a href="https://www.instagram.com/" aria-label="Instagram" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <!-- LinkedIn -->
+                    <a href="https://www.linkedin.com/in/rushikesh-marathe-320a7023a/" aria-label="LinkedIn"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <!-- GitHub -->
+                    <a href="https://github.com/rushimarathe" aria-label="GitHub" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="foot-bottom">
+                <p>&copy; 2026 Designed by <b>RUSHIKESH MARATHE</b></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        // typing effect (falls back to static text if the library fails to load)
+        if (window.Typed) {
+            new Typed('#element', {
+                strings: [
+                    'Jr Penetration Tester.',
+                    'Web Application Security Researcher.',
+                    'Vulnerability Researcher.',
+                    'Ethical Hacker.',
+                    'Cyber Security Specialist.'
+                ],
+                typeSpeed: 50,
+                backSpeed: 30,
+                backDelay: 1400,
+                loop: true
+            });
+        }
+
+        // glass nav switches to light style once you scroll past the hero
+        const header = document.getElementById('siteHeader');
+        const hero = document.getElementById('home');
+        const onScroll = () => {
+            header.classList.toggle('scrolled', window.scrollY > hero.offsetHeight - 90);
+        };
+        window.addEventListener('scroll', onScroll, { passive: true });
+        onScroll();
+
+        // reveal-on-scroll
+        const items = document.querySelectorAll('.reveal');
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+            }, { threshold: 0.12 });
+            items.forEach(el => io.observe(el));
+        } else {
+            items.forEach(el => el.classList.add('in'));
+        }
+        
+
+const menuToggle = document.getElementById('menuToggle');
+const navLinks = document.getElementById('navLinks');
+
+if (menuToggle && navLinks) {
+  menuToggle.addEventListener('click', function () {
+    const isOpen = navLinks.classList.toggle('open');
+
+    this.setAttribute('aria-expanded', String(isOpen));
+    this.setAttribute(
+      'aria-label',
+      isOpen ? 'Close navigation menu' : 'Open navigation menu'
+    );
+
+    this.innerHTML = isOpen
+      ? '<i class="fa-solid fa-xmark"></i>'
+      : '<i class="fa-solid fa-bars"></i>';
+  });
+
+  navLinks.querySelectorAll('a').forEach(function (link) {
+    link.addEventListener('click', function () {
+      navLinks.classList.remove('open');
+      menuToggle.setAttribute('aria-expanded', 'false');
+      menuToggle.setAttribute('aria-label', 'Open navigation menu');
+      menuToggle.innerHTML = '<i class="fa-solid fa-bars"></i>';
+    });
+  });
+}
+
+
+    </script>
+    <script src="/contact.js" defer></script>
+</body>
+
+</html>
